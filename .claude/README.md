@@ -36,3 +36,11 @@ Browse everything with `/plugin marketplace` or check the
 ## Removing one
 
 Delete its line from `enabledPlugins` in `settings.json`.
+
+## MCP servers
+
+`.mcp.json` at the repo root adds the [21st.dev](https://21st.dev) MCP server
+(UI component generation). It reads the API key from the `TWENTY_FIRST_API_KEY`
+environment variable, so the key never lives in the repo. Set that variable in
+your environment (for Claude Code on the web: environment settings → environment
+variables), and allow `21st.dev` in the network access settings.

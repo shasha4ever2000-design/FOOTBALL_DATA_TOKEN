@@ -24,5 +24,8 @@
     "finance-skills@claude-code-skills": true,
     "business-growth-skills@claude-code-skills": true,
     "ui-ux-pro-max@ui-ux-pro-max-skill": true
-  }
+  },
+  "enabledMcpjsonServers": [
+    "21st"
+  ]
 }
