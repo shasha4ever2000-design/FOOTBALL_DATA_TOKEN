@@ -1,8 +1,11 @@
 # Claude Code skills for this project
 
-Skills come from the [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
-marketplace, wired up in `settings.json`. Claude Code fetches the marketplace on
-session start, so nothing is vendored into this repo.
+Skills come from two marketplaces, wired up in `settings.json`:
+
+- [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+
+Claude Code fetches them on session start, so nothing is vendored into this repo.
 
 ## What's enabled
 
@@ -16,8 +19,9 @@ session start, so nothing is vendored into this repo.
 | `c-level-skills` | 34 | CFO/CMO/CTO-style advisory personas |
 | `finance-skills` | 4 | Modelling, investment analysis |
 | `business-growth-skills` | 5 | Positioning, pricing, GTM |
+| `ui-ux-pro-max` | 7 | UI/UX design: styles, palettes, font pairings, UX rules, design systems, banners, slides |
 
-That's ~185 skills. The marketplace has 99 plugins / 388 skills total — the rest
+That's ~192 skills. The claude-skills marketplace has 99 plugins / 388 skills total — the rest
 are off to keep session context lean.
 
 ## Adding more

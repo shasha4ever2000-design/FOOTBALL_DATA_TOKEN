@@ -6,6 +6,12 @@
         "source": "github",
         "repo": "alirezarezvani/claude-skills"
       }
+    },
+    "ui-ux-pro-max-skill": {
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      }
     }
   },
   "enabledPlugins": {
@@ -16,6 +22,7 @@
     "marketing-skills@claude-code-skills": true,
     "c-level-skills@claude-code-skills": true,
     "finance-skills@claude-code-skills": true,
-    "business-growth-skills@claude-code-skills": true
+    "business-growth-skills@claude-code-skills": true,
+    "ui-ux-pro-max@ui-ux-pro-max-skill": true
   }
 }
