@@ -32,3 +32,14 @@ Browse everything with `/plugin marketplace` or check the
 ## Removing one
 
 Delete its line from `enabledPlugins` in `settings.json`.
+
+## Vendored skills
+
+These live in `.claude/skills/` and load automatically. Copied from
+[TreyDong/banana-skills](https://github.com/TreyDong/banana-skills) (MIT, see `skills/BANANA_LICENSE`).
+
+| Skill | Covers |
+| --- | --- |
+| `banana-skill-finder` | Finds and suggests other skills for a task |
+| `banana-sync-to-notion` | Syncs local Markdown files to Notion (needs `NOTION_TOKEN` + `NOTION_ROOT_PAGE_ID` in a `.env`, and `npm install` in its folder) |
+| `banana-claude-codex-import` | Imports Claude Code / Codex chat history into OpenClaw memory |
