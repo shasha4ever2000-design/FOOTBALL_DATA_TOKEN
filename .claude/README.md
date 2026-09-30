@@ -32,3 +32,15 @@ Browse everything with `/plugin marketplace` or check the
 ## Removing one
 
 Delete its line from `enabledPlugins` in `settings.json`.
+
+## Agent Reach (web sessions)
+
+`hooks/session-start.sh` reinstalls [Agent Reach](https://github.com/Panniantong/Agent-Reach)
+at the start of every Claude Code on the web session, since the container is
+wiped between sessions. It installs into `~/.agent-reach-venv` (outside the repo),
+adds `gh`, `mcporter` + Exa search and `yt-dlp`, and registers the `agent-reach`
+skill. It does nothing on local machines.
+
+Run `agent-reach doctor` to see which channels are working. Some sites (Jina
+Reader, Exa, V2EX, Bilibili) need to be allowed in the environment's network
+settings first.
