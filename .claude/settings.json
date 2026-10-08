@@ -6,6 +6,12 @@
         "source": "github",
         "repo": "alirezarezvani/claude-skills"
       }
+    },
+    "karpathy-skills": {
+      "source": {
+        "source": "github",
+        "repo": "multica-ai/andrej-karpathy-skills"
+      }
     }
   },
   "enabledPlugins": {
@@ -16,6 +22,7 @@
     "marketing-skills@claude-code-skills": true,
     "c-level-skills@claude-code-skills": true,
     "finance-skills@claude-code-skills": true,
-    "business-growth-skills@claude-code-skills": true
+    "business-growth-skills@claude-code-skills": true,
+    "andrej-karpathy-skills@karpathy-skills": true
   }
 }
