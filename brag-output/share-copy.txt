@@ -1,0 +1,2 @@
+Most people don't need more AI news. They need clear steps. So I built 19 short AI lessons in plain English and Arabic: each one is under ten minutes, comes with a prompt you can copy, and needs no sign-up.
+ahmed-ai-lessons-website.vercel.app
