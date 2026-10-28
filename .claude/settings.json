@@ -6,6 +6,12 @@
         "source": "github",
         "repo": "alirezarezvani/claude-skills"
       }
+    },
+    "headcount": {
+      "source": {
+        "source": "github",
+        "repo": "cbrock84/headcount"
+      }
     }
   },
   "enabledPlugins": {
@@ -16,6 +22,22 @@
     "marketing-skills@claude-code-skills": true,
     "c-level-skills@claude-code-skills": true,
     "finance-skills@claude-code-skills": true,
-    "business-growth-skills@claude-code-skills": true
+    "business-growth-skills@claude-code-skills": true,
+    "executive@headcount": true,
+    "technology@headcount": true,
+    "it-operations@headcount": true,
+    "security@headcount": true,
+    "finance@headcount": true,
+    "legal-risk@headcount": true,
+    "people@headcount": true,
+    "operations@headcount": true,
+    "pmo@headcount": true,
+    "product@headcount": true,
+    "data-analytics@headcount": true,
+    "marketing@headcount": true,
+    "demand-generation@headcount": true,
+    "revenue@headcount": true,
+    "customer-experience@headcount": true,
+    "corporate-strategy@headcount": true
   }
 }
